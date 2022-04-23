@@ -1,0 +1,37 @@
+#include <algorithm>
+#include <bitset>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <deque>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+#include <numeric>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef vector<int> vi;
+typedef pair<int, int> pii;
+
+
+int main(){
+   int it;
+    scanf("%d",&it);
+    while(it--){
+        int x,y;
+        scanf("%d %d",&x,&y);
+        if(x<y) cout<<"<"<<endl;
+        else if(x > y) cout<<">"<<endl;
+        else
+            cout<<"="<<endl;
+
+    }
+        return 0;
+    }
