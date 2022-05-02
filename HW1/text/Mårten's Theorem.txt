@@ -1,0 +1,8 @@
+I used union-find to union all rhyming words in the same group.
+firstly I created a union-find with the size of 200000 because we are given n statements and each statement has 2 words (I can use also 2*n but I decided to take the maximum number).
+I also used unordeered_map string->int, and also a vector,
+to save each suffix backward for all the words if 2 words have a common root we add them to the same union.
+and then we check the op if it is "is" we add them to the same union 
+if it is not we add them to a vector.
+after we get all the input we check all vector of not words if 2 words are in the same union there is a contradiction else all rhyme.
+Complexity:O(nlog*(n))

@@ -1,0 +1,8 @@
+I used to solve this question through dynamic programming 2D.
+In each step we calculate the minimum between jumping forward or jumping backward.
+
+if location == target return fee[location]
+mat[last_jump][location] < INF return mat[last_jump][location];
+a = Nikola(location + last_jump + 1,last_jump+1)
+b = Nikola(location-lastjump, lastjump).
+mat[lastjmp][location = min(a,b)
