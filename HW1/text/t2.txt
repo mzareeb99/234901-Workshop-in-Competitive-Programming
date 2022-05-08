@@ -34,3 +34,9 @@ number devided by two and one of the output numbers. T is not a constant and is 
 but it's small enough to be considered as O(1).
 
 Total - O(S * log(n)) - ~3 million operations
+
+
+
+
+
+
