@@ -1,14 +1,13 @@
-In order to solve this problem, we need to perform two steps:
-1. Calculate all the lucky numbers up to 2,000,000
-2. Return the appropriate lucky numbers according to each input
+To solve this problem, we need to do two main things:
+1. Calculate all the lucky numbers.
+2. Return the appropriate lucky numbers for each input.
 
-The way to calculate all the lucky numbers is the naive way: for each lucky number, remove all the numbers
+The way to calculate all the lucky numbers is by segment tree, for each lucky number, remove all the numbers
 which their location index is devidable by the lucky number.
-We can notice we can't do that using a list or a vector:
-Using a list, we need to traverse the whole list in each iteration.
-Using a vector, we need O(n) for every number removal.
-We want to have the ability to access numbers at certain indexes and remove them efficiently,
-thus we use a segment tree, where each operation costs O(log(n)) ~ 20 operations.
+why segment tree? we can't do that using a list or a vector it take so much runtime.
+list, we need to go over the whole list in each iteration.
+vector, we need O(n) for every number we need to delete.
+segment tree each operation costs O(log(n)).
 
 Tree's size will be 2*n and the bottom tier (the last n elements) will consist of 0's and 1's.
 0 indicates that the matching index of the cell is not a lucky number while 1 indicates that
