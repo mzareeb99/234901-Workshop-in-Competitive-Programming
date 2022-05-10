@@ -59,6 +59,7 @@ void calc_lucky_nums() {
         }
     }
 }
+
 int main() {
     lucky_nums = vector<bool>(MAX_SIZE,false);
     calc_lucky_nums();
