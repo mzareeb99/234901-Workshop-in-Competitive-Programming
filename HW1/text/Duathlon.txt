@@ -3,3 +3,4 @@ In each step of the ternary search, I call to function to check who is the minim
 the vector contains pairs of the doubles, 
 first value = (1/(speed(r) - 1/speed(k))
 second value = the total distance / speed(k)
+ 
