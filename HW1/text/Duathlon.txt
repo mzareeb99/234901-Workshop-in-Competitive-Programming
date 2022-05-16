@@ -1,6 +1,10 @@
 I solve this question used a ternary search,
-In each step of the ternary search, I call to function to check who is the minimum of the vector of the double pairs is less than a number.
-the vector contains pairs of the doubles, 
+If we look at the graph of the cheater "winning time" (the time he finishes the race minus the time of the fastest competitor) against the value of r, going from 0 to 100, the problem requires finding the r that gives the maximum of this function.
+This function is concave, as we learn at the class, it is solveable using ternary-search.
+We start with the bounds on r - 0 and t and check the value of the function on the midpoint each third, then dispose of the third where the function value is flower until left and right bounds are close enough.
 first value = (1/(speed(r) - 1/speed(k))
 second value = the total distance / speed(k)
- 
+
+time complexity:
+ O(log(n))
+
