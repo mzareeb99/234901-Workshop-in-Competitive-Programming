@@ -1,0 +1,10 @@
+the problem is similar to make SCC with minimum add edges.
+in the beginning  calculate the SCC graph by running the
+SCC algorithm to eliminate unnecessary edges.(Note: Strongly connected
+components don't give us any information so we can change them with
+one vertex for each component, just like the SCC algorithm does).
+Time complexity:
+Calculating SCC graph - O(n + m)
+Calculating number of vertexes with zero in-degree - O(n + m)
+Calculating number of vertexes with zero out-degree - O(n)
+Total - O(n + m)
