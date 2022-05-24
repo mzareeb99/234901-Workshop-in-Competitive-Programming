@@ -74,6 +74,7 @@ void bfs(const vvi& g, int s) {
             }
     }
 }
+
 void KosarajuDFS(const vvi& g, int u, int color, vi& S, vi& colorMap) {
     colorMap[u] = color;
     for (auto& v : g[u]) if (colorMap[v] == 0)
