@@ -7,4 +7,5 @@ second value = the total distance / speed(k)
 
 time complexity:
  O(log(n))
+ 
 
