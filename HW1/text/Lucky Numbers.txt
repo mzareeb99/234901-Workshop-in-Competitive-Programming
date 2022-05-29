@@ -11,5 +11,6 @@ bits in the tree where their location is devidable by the lucky number.
 We can notice that each odd input number cannot be a sum of two lucky numbers, as all lucky numbers are odd too.
 every even number is a sum of two lucky numbers, and those two numbers can be found by taking the half of the input number and checking them which are closed to this half.
 
+
 Time complexity:
 O(S * log(n))  where S is the number of lucky numbers in the range [1, 2000000]
