@@ -1,3 +1,3 @@
-|Qustion number|Qustion Name| done ?|
-|-----------|-------------|-------------|
+|number|Name| done ?|
+|------|----------------|-------------|
 |1|Genetic Search|yes|
