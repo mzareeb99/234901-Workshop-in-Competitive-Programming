@@ -1,1 +1,5 @@
-
+To solve this question, I called three different functions and each one of them calculated some type.
+type1 I used find function in STL to find the S in L,
+type2 I used substr  in each step I ignored some characters and then call function for type 1.
+type3 I used two loops and try all the options two insert characters to S string and then call the type function.
+and also inside the function of type 1 and type 2 I used unordered map to save the word is already checked and it counts only the occurrences of that string once.
