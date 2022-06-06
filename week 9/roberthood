@@ -271,76 +271,32 @@ vector<point> convex_hull(vector<point> Points) {
     return CH;
 }
 
-
-long double currMaxAux(const vector<point>& ch, int i, int from, int to){
-    long double curr=0;
-    int j=(i+from)%ch.size();
-    curr = max(curr, dist(ch[i], ch[j]));
-    j = (j+1)%ch.size();
-    for (; j!=(i+to)%ch.size(); j = (j+1)%ch.size()){
-        curr = max(curr, dist(ch[i], ch[j]));
-    }
-    return curr;
-}
-
-
 long double currMax(const vector<point>& ch, int i){
-//    if (ch.size() < 100){
-//        return currMaxAux(ch, i, 0, ch.size());
-//    }
     auto left_bound = 0;
     auto right_bound = ch.size();
-
     while (right_bound - left_bound > 2){
         auto mid1 = left_bound + (right_bound - left_bound) / 3;
         auto mid2 = right_bound - (right_bound - left_bound) / 3;
-
         auto d1 = dist(ch[i], ch[(i + mid1) % ch.size()]);
         auto d2 = dist(ch[i], ch[(i + mid2) % ch.size()]);
-
         if (d1 < d2){
             left_bound = mid1;
         } else{
             right_bound = mid2;
         }
     }
-
-    //return dist(ch[i], ch[(i + left_bound) % ch.size()]);
-    return currMaxAux(ch, i, left_bound, right_bound);
-
-
-
-//    int idx1 = ((right_bound - left_bound + ch.size()) % ch.size())/3;
-//    int idx2 = (right_bound - idx1 + ch.size()) % ch.size();
-//
-//    while (idx1 < max(0, idx2-100)){
-//        auto curr1 = (idx1 + i) % ch.size();
-//        auto curr2 = (idx2 + i) % ch.size();
-//
-//        auto dist1 = dist(ch[i], ch[curr1]);
-//        auto dist2 = dist(ch[i], ch[curr2]);
-//
-//        if (dist1 < dist2){
-//            left_bound = idx1;
-//        } else if (dist1 > dist2){
-//            right_bound = idx2;
-//        } else{
-//            left_bound = idx1;
-//            right_bound = idx2;
-//        }
-//        idx1 = left_bound + ((right_bound - left_bound + ch.size()) % ch.size())/3;
-//        idx1 %= ch.size();
-//        idx2 = left_bound + (right_bound - (right_bound - left_bound) + ch.size()) % ch.size();
-//        idx2 %= ch.size();
-//    }
-//
-//    return currMaxAux(ch, i, (i+left_bound)%ch.size(), (i+right_bound+1)%ch.size());
+    long double curr=0;
+    int j=(i+left_bound)%ch.size();
+    curr = max(curr, dist(ch[i], ch[j]));
+    j = (j+1)%ch.size();
+    for (; j!=(i+right_bound)%ch.size(); j = (j+1)%ch.size()){
+        curr = max(curr, dist(ch[i], ch[j]));
+    }
+    return curr;
 }
-
 
 int main() {
     fastIO;
-
     int C;
     cin >> C;
     vector<point> ps(C);
@@ -348,45 +304,10 @@ int main() {
         cin >> ps[i].x >> ps[i].y;
     }
     auto CH = convex_hull(ps);
-
     long double max_d = 0;
-
     for (int i=0; i<CH.size(); ++i){
         max_d = max(max_d, currMax(CH, i));
     }
-
-    // cout << setprecision(8) << max_d << endl;
-    printf("%Lf\n", max_d);
-
-
-
-
-
-//    int s_ant1=0, s_ant2=0;
-//
-//    for (int i=0; i<CH.size(); ++i){
-//        if (CH[i].y > CH[s_ant1].y){
-//            s_ant1 = i;
-//        }
-//        if (CH[i].y < CH[s_ant2].y){
-//            s_ant2 = i;
-//        }
-//    }
-//
-//    int c_ant1=s_ant1, c_ant2=s_ant2;
-//    point side1=point(INF, CH[s_ant1].y), side2=point(-INF, CH[s_ant2].y);
-//
-//    double t1, t2;
-//
-//    t1 = angle(side1, CH[s_ant1], CH[(s_ant1+1)%CH.size()]);
-//    t2 = angle(side2, CH[s_ant2], CH[(s_ant2+1)%CH.size()]);
-//
-//    if (t1 < t2){
-//
-//    }
-
-
-
-
+    cout<<fixed<<setprecision(8)<<max_d<<endl;
     return 0;
 }
