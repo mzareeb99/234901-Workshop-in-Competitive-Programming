@@ -1,5 +1,6 @@
 Algorithm:
 ==========
+
 new segment lists: old_list, list. 
 (segments are left and right (x,y) coordinates)
 
