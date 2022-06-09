@@ -55,6 +55,8 @@ for each building (curr, received as a segment from input):
 		(calculated with area of trapezoid formula).
 
 
+
+
 	added_area += area of curr.
 	output result: added_area / new_building_area.
 	old_list = list.
