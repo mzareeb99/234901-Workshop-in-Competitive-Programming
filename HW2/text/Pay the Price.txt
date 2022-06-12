@@ -3,7 +3,8 @@ I solve this problem by using dynamic programming
 2. fill out all the matrix by dp[i][j] =dp[i][j] = dp[i][j - 1] + dp[i][j] +=dp[i - j][j]
 3.base case is when i =0, dp[0][j] =1 ( 0<=k<=300)
 
-and then when the matrix is ready, I read from cin all the ling by getline and then parting the line to the numbers and insert them into an array, and then print out according to the number of the numbers I read from the cin, and fix the input numbers min(300, input)
+and then when the matrix is ready, I read from cin all the line by getline and then parting the line to the numbers and insert them into an array,
+and then print out according to the number of the numbers I read from the cin, and fix the input numbers min(300, input)
 
 time complexity:
 create the matrix is take O(305*305) = O(93330)
