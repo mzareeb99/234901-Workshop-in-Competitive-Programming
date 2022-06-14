@@ -1,0 +1,93 @@
+#include <algorithm>
+#include <bitset>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <deque>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+#include <numeric>
+#include <iomanip>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef vector<ull> vull;
+typedef vector<vll> vvll;
+typedef vector<vull> vvull;
+typedef pair<int, int> pii;
+typedef pii ii;
+typedef pair<int, ii> iii;
+typedef vector<pii> vii;
+typedef priority_queue<int> max_iheap;
+typedef priority_queue<ll> max_llheap;
+typedef priority_queue<ull> max_ullheap;
+typedef priority_queue<int, vi, greater<int>> min_iheap;
+typedef priority_queue<int, vll, greater<ll>> min_llheap;
+typedef priority_queue<int, vull, greater<ull>> min_ullheap;
+typedef vector< vector<int> > vvi; // unweighted graph
+typedef vector< vector< pair<int,int> > > vvii; // weighted graph
+#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+
+
+ull dp[1002][1002];
+ull play[1002][1002];
+
+ull INF = numeric_limits<ull>::max();
+
+
+int main() {
+    fastIO;
+
+    int n, m;
+    cin >> n >> m;
+
+    int ki;
+    for (int i=0; i<n; ++i){
+        cin >> ki;
+        int l;
+        for (int j=0; j<ki; ++j){
+            cin >> l;
+            play[i][l] = 1;
+        }
+    }
+
+    int curr;
+    cin >> curr;
+    for (int j=0; j<n; ++j){
+        if (!play[j][curr]){
+            dp[1][j] = INF;
+        }
+    }
+
+    for (int i=2; i<=m; ++i){
+        cin >> curr;
+        ull curr_min = INF;
+        for (int j=0; j<n; ++j){
+            curr_min = min(curr_min, dp[i-1][j]);
+        }
+        for (int j=0; j<n; ++j){
+            if (play[j][curr]){
+                dp[i][j] = min(1 + curr_min, dp[i-1][j]);
+            } else{
+                dp[i][j] = INF;
+            }
+        }
+    }
+
+    ull res = INF;
+    for (int i=0; i<n; ++i){
+        res = min(res, dp[m][i]);
+    }
+    cout << res << endl;
+
+    return 0;
+}
