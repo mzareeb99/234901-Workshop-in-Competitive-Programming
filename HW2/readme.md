@@ -3,3 +3,4 @@
 |1|Genetic Search|yes|
 |2|Calculator |No|
 |3|Pay the Price|yes|
+|skyline|yes*|
