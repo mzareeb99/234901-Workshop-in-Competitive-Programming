@@ -52,8 +52,8 @@ https://vjudge.net/problem/Kattis-peggamefortwo
 https://vjudge.net/problem/Kattis-happyprime
 
 class 13 (competition):
-https://vjudge.net/problem/Kattis-batmanacci\
-https://vjudge.net/problem/Kattis-unlockpattern\
+https://vjudge.net/problem/Kattis-batmanacci\n
+https://vjudge.net/problem/Kattis-unlockpattern\n
 https://vjudge.net/problem/Kattis-posterize
 https://vjudge.net/problem/UVA-1103
 https://vjudge.net/problem/UVA-361
