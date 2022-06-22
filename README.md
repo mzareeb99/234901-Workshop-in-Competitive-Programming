@@ -3,6 +3,11 @@
 This is our solution in course workshop incompetitive programming 234901 in Technion, semester 2022 spring, Team 11.
 
 
+# Workshop-in-Competitive-Programming
+
+This is our solution in course workshop incompetitive programming 234901 in Technion, semester 2022 spring, Team 11.
+
+
 class 7:
 https://vjudge.net/problem/Kattis-aliens
 https://vjudge.net/problem/Kattis-itsasecret
@@ -47,8 +52,8 @@ https://vjudge.net/problem/Kattis-peggamefortwo
 https://vjudge.net/problem/Kattis-happyprime
 
 class 13 (competition):
-https://vjudge.net/problem/Kattis-batmanacci
-https://vjudge.net/problem/Kattis-unlockpattern
+https://vjudge.net/problem/Kattis-batmanacci\
+https://vjudge.net/problem/Kattis-unlockpattern\
 https://vjudge.net/problem/Kattis-posterize
 https://vjudge.net/problem/UVA-1103
 https://vjudge.net/problem/UVA-361
