@@ -52,7 +52,9 @@ https://vjudge.net/problem/Kattis-peggamefortwo
 https://vjudge.net/problem/Kattis-happyprime
 
 class 13 (competition):
-https://vjudge.net/problem/Kattis-batmanacci
+|Problem name|done?|
+|-----------|------|
+|[1](https://vjudge.net/problem/Kattis-batmanacci)||
 https://vjudge.net/problem/Kattis-unlockpattern
 https://vjudge.net/problem/Kattis-posterize
 https://vjudge.net/problem/UVA-1103
