@@ -17,6 +17,7 @@ class 13 (competition):
 |10|[10](https://vjudge.net/problem/Kattis-supercomputer)||
 
 
+
 class 7:
 https://vjudge.net/problem/Kattis-aliens
 https://vjudge.net/problem/Kattis-itsasecret
