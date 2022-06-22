@@ -2,10 +2,19 @@
 
 This is our solution in course workshop incompetitive programming 234901 in Technion, semester 2022 spring, Team 11.
 
-
-# Workshop-in-Competitive-Programming
-
-This is our solution in course workshop incompetitive programming 234901 in Technion, semester 2022 spring, Team 11.
+class 13 (competition):
+|Number|Problem name|done?|
+|---|-----------|------|
+|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)||
+|2|[2](https://vjudge.net/problem/Kattis-unlockpattern)||
+|3|[3](https://vjudge.net/problem/Kattis-posterize)||
+|4|[4](https://vjudge.net/problem/UVA-1103)||
+|5|[5](https://vjudge.net/problem/UVA-361)||
+|6|[6](https://vjudge.net/problem/Kattis-lostmap)||
+|7|[7](https://vjudge.net/problem/Kattis-pascal)||
+|8|[8](https://vjudge.net/problem/UVA-1584)||
+|9|[9](https://vjudge.net/problem/Kattis-blockcrusher)||
+|10|[10](https://vjudge.net/problem/Kattis-supercomputer)||
 
 
 class 7:
