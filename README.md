@@ -5,7 +5,7 @@ This is our solution in course workshop incompetitive programming 234901 in Tech
 class 13 (competition):
 |Number|Problem name|done?|
 |---|-----------|------|
-|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)||
+|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)|[done](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/Class14/Batmanacci)|
 |2|[2](https://vjudge.net/problem/Kattis-unlockpattern)||
 |3|[3](https://vjudge.net/problem/Kattis-posterize)||
 |4|[4](https://vjudge.net/problem/UVA-1103)||
@@ -61,16 +61,4 @@ https://vjudge.net/problem/UVA-11311
 https://vjudge.net/problem/Kattis-peggamefortwo
 https://vjudge.net/problem/Kattis-happyprime
 
-class 13 (competition):
-|Number|Problem name|done?|
-|---|-----------|------|
-|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)|[done](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/Class14/Batmanacci)|
-|2|[2](https://vjudge.net/problem/Kattis-unlockpattern)||
-|3|[3](https://vjudge.net/problem/Kattis-posterize)||
-|4|[4](https://vjudge.net/problem/UVA-1103)||
-|5|[5](https://vjudge.net/problem/UVA-361)||
-|6|[6](https://vjudge.net/problem/Kattis-lostmap)||
-|7|[7](https://vjudge.net/problem/Kattis-pascal)||
-|8|[8](https://vjudge.net/problem/UVA-1584)||
-|9|[9](https://vjudge.net/problem/Kattis-blockcrusher)||
-|10|[10](https://vjudge.net/problem/Kattis-supercomputer)||
+
