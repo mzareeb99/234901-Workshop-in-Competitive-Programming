@@ -64,7 +64,7 @@ https://vjudge.net/problem/Kattis-happyprime
 class 13 (competition):
 |Number|Problem name|done?|
 |---|-----------|------|
-|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)||
+|1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)|[done](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/Class14/Batmanacci)|
 |2|[2](https://vjudge.net/problem/Kattis-unlockpattern)||
 |3|[3](https://vjudge.net/problem/Kattis-posterize)||
 |4|[4](https://vjudge.net/problem/UVA-1103)||
