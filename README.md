@@ -6,7 +6,7 @@ class 13 (competition):
 |Number|Problem name|done?|
 |---|-----------|------|
 |1|[Batmanacci](https://vjudge.net/problem/Kattis-batmanacci)|[done](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/Class14/Batmanacci)|
-|2|[Unlock Pattern](https://vjudge.net/problem/Kattis-unlockpattern)|[done]|
+|2|[Unlock Pattern](https://vjudge.net/problem/Kattis-unlockpattern)|[done](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/Class14/Unlock%20Pattern)|
 |3|[3](https://vjudge.net/problem/Kattis-posterize)||
 |4|[4](https://vjudge.net/problem/UVA-1103)||
 |5|[5](https://vjudge.net/problem/UVA-361)||
