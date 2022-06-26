@@ -11,7 +11,7 @@ class 13 (competition):
 |4|[4](https://vjudge.net/problem/UVA-1103)||
 |5|[5](https://vjudge.net/problem/UVA-361)||
 |6|[6](https://vjudge.net/problem/Kattis-lostmap)||
-|7|[7](https://vjudge.net/problem/Kattis-pascal)||
+|7|[Pascal](https://vjudge.net/problem/Kattis-pascal)|()[]|
 |8|[8](https://vjudge.net/problem/UVA-1584)||
 |9|[9](https://vjudge.net/problem/Kattis-blockcrusher)||
 |10|[10](https://vjudge.net/problem/Kattis-supercomputer)||
