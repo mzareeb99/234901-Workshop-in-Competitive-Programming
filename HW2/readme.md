@@ -7,7 +7,7 @@
 |E|Closest Pair (Uniform)||
 |F|Skyline|yes|
 |G|The King of the North||
-|H|Avoiding the Apocalypse ||
+|H|Avoiding the Apocalypse |yes(amal)|
 |I|Finding Paths in Grid||
 |J|The Candyman Can||
 |K|Peg Game for Two||
