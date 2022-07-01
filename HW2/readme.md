@@ -6,7 +6,7 @@
 |D|Randomly-priced Tickets |yes(amal)|
 |E|Closest Pair (Uniform)||
 |F|Skyline|yes|
-|G|The King of the North||
+|G|The King of the North|yes|
 |H|Avoiding the Apocalypse |yes(amal)|
 |I|Finding Paths in Grid||
 |J|The Candyman Can||
