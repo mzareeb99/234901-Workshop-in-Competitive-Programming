@@ -1,0 +1,11 @@
+Firstly we sort all the points according to the X value,
+and then we initialize set (which is sorted by Y value).
+the sorted points while saving the min distance.
+For each point, we check all the points in the set by and removing points that are far from the current point, according to 
+if(current_point.x - point_in_set.x >= min_dist)
+	then remove point_in_set from the set
+The set is sorted by Y, we can easily find the close points to the current point by using lower_bound and upper_bound, we check if the distance between each of them is less than min_dist and update min_dist accordingly.
+We insert the current point into the set and move on to the next point.
+
+Time Complexity:
+O(n*log(n)).
