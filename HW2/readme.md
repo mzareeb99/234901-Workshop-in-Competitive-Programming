@@ -3,7 +3,7 @@
 |A|Genetic Search|yes|
 |B|Calculator |Y(yahav)|
 |C|Pay the Price|yes|
-|D|Randomly-priced Tickets |yes|
+|D|Randomly-priced Tickets |yes(amal)|
 |E|Closest Pair (Uniform)||
 |F|Skyline|yes|
 |G|The King of the North||
