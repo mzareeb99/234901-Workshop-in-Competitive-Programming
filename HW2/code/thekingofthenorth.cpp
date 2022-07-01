@@ -10,8 +10,6 @@ typedef vector<int> vi;
 typedef vector<vi> vvi;
 
 
-
-
 const int INF = 1e9;
 
 int augment(vvi& res, int s, int t, const vi& p, int minEdge) {
