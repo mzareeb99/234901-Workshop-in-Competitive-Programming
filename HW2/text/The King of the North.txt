@@ -1,0 +1,6 @@
+DISCLAIMER: the algorithm that was provided didnt work due to memory limitation, we used dinic algorithm implementation from the internet.
+first of all we build a new graph, we duplicate each vertex u to 2 u_1,u_2 and add an edge between them with the capacity = value(u).
+for each 2 vertices u,v that are adjacent horizontaly or vertically connected we add edges between u_1, v_2 and v_1 u_2 with capacity INF.
+we add a new vertex s and connect it with all the vertices vi_1 with capacity INF, while vi is in the border of the map.
+now the problem is a max flow problem, the number of the bannermen required are min cut of the new graph or max flow of the network we can calculate that by running dninic algorithm on the network.
+time Complexity: O(V^2  *E)
