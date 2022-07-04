@@ -1,0 +1,5 @@
+We initialized matrix NxN and while getting the input we put in mat[I][j] 1 if there is path(Y) between I and j and 0x3f3f3f3f otherwise. And after we received all the input we calculate for each I,j the minimum between mat[I][j] and mat[I][k]+mat[k][j] for each k from 0 to n-1 .
+The idea is using this mat to built another matrix which we calculate for [I][j] the probability for mat[a][b] with j money exactly.
+
+
+Total time complexity is O(N^3)  
