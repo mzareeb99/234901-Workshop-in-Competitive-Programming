@@ -1,0 +1,10 @@
+Solution without parentheses:
+1. Identify all numbers and operators.
+2. Go over the input, evaluate only multiplications and divisions (precedence is left to right) and replace them with the results.
+3. Go over the input again, evaluate additions and subtractions (precedence is left to right).
+Solution with parentheses:
+Switch stage 1 with:
+1. Identify all numbers and operators. If spotted parentheses in the middle - evaluate them recursively.
+
+Time complexity - O(length of input)
+
