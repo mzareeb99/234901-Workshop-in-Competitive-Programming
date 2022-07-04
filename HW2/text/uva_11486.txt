@@ -1,0 +1,6 @@
+
+In this question I used permutation to solve it.
+At first I initialized a matrix that in [I][j] there is 1 if there is valid move from I to j and 0 if not. For each given permutation I found the index from the base permutation which is(false, false, false, true, true, true, true) and also given n the number of rows we initialized a matrix with fast_pow(matrix,n-1) that with this matrix and given permutation index the [permutation][j] return the num of ways.
+
+
+
