@@ -1,0 +1,9 @@
+1. Check if the number is prime using Miller-Rabin. If it is not prime, it is for sure not a happy prime. Else:
+2. Get mu and lambda of this iterative process using Floyd's cycle finding algorithm. If labmda is 1 it is a happy prime (gets stuck at 1), else it is not (no other number gets itself after one iteration of this process).
+
+We made the assumption that this iterative process eventually , it follows from the fact that n*(9^2)<10^n for sufficienly large n - n>3, which means that numbers greater then 999 will have to go down after applying this process, but not below 1.
+This proof also shows us that the complexity of the second stage of our algorithm is O(log(m)).
+The complexity of the deterministic version of Miller-Rabin for m<=2^64 is O(log(m)), hence:
+
+Time complexity - O(P*log(m))
+
