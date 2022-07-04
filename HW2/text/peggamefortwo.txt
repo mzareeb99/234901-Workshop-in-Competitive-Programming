@@ -1,0 +1,1 @@
+Full minimax simulation as seen in class.
