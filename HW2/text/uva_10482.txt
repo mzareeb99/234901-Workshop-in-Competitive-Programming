@@ -1,0 +1,17 @@
+Use dp. Define:
+dp[i][j][k] = is it possible to get to configuration: i first candies, first kid has j, second kid his k.
+
+Update with the formula:
+dp[i][j][k] = dp[i-1][j-cs[i]][k] || dp[i-1][j][k-cs[i]] || dp[i-1][j][k]
+dp[0][0][0] = true
+
+Where the array is of size (number of candies + 1) x (max possible candy weight for a kid) x (max possible candy weight for a kid)
+        and max possible candy weight for a kid is (number of candies)*(max candy weight = 20)
+
+After this array is filled, we are interested in the "smallest badness".
+We know that all candies has to be distributed, so if we mark n = (number of cadies), we need the best option from all true values of the form dp[n][j][k].
+        Meaning, we need to min the badness of distributing candies of weight j to the first kid and k to the second kid, going through all j and k with dp[n][j][k]==true.
+        This can be achieved by simply going through all j and k.
+
+Time complexity - O((number of candies)^3 * (max candy weight)^2)
+        Given that the number of candies is at most 32, the max candy weight is 20, and less than 130 test cases, we get roughly 1e7 ops.
