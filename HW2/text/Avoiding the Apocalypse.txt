@@ -1,0 +1,11 @@
+
+The idea is to use flow.
+The graph consists of n x (s+1) nodes (n is the number of locations, s is the number of steps), plus source node and a target node.
+For each road from u to v with length t and capacity p we have an edge from (u,k) to (v,k+t) with capacity p for all k's such that k+t<=s.
+There is an edge with capacity g from the source to (i,0) where i is the initial location, and a road with capacity infinity from (m,s) for all medical fascilities m to the target node.
+There is also a node from (x,t) to (x,t+1) because people can wait in each location.
+Correctness is not hard, the maximal flow from source to target is the amount of people that can reach any medical fascility in s time.
+We had to change two things in EdmondsKarp algorithm, one is that instead of a two dimensional n x n array for all nodes indicating the residue, we used a map that takes pairs and outputs integers. we did this change because there are at most 100,000 nodes in our graph, building a two dimensional array takes O(100,000x100,000) space which is *types on calculator...* a lot!. Using a map is much more efficient since we don't have a lot of edges. 
+The second change was using DFS instead of BFS (changing queue to stack), this is to save time because the graph is huge and most operations like waiting in place take too much time and are quite useless, using DFS is better because we reach the target much earlier. We also made sure that it first tries going to another medical fascility and not wait in place by adding edges between different facilities before adding the edges that keep us in place.
+
+Time: The time that calculating the flow takes. There are at most O(r*s+n*s) edges: r*s are edges from one location to another, and n*s is the number of edges from a location to itself (waiting), therefore the algorithm takes O(g*|E|)=O(g(r+n)s) time since we will have at most g augmenting paths.
