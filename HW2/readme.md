@@ -1,6 +1,6 @@
 |number|Name| done ?|
 |------|----------------|-------------|
-|A|Genetic Search|yes|
+|A|Genetic Search|[yes](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/geneticsearch.cpp)|
 |B|Calculator |Y(yahav)|
 |C|Pay the Price|yes|
 |D|Randomly-priced Tickets |yes(amal)|
