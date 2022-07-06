@@ -18,6 +18,7 @@ class 13 (competition):
 
 
 
+
 class 7:
 https://vjudge.net/problem/Kattis-aliens
 https://vjudge.net/problem/Kattis-itsasecret
