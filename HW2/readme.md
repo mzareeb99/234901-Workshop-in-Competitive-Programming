@@ -1,7 +1,7 @@
 |number|Name| done ?|
 |------|----------------|-------------|
 |A|Genetic Search|[yes](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/geneticsearch.cpp)|
-|B|Calculator |Y(yahav)|
+|B|Calculator |[Y(yahav)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/calculator.cpp)|
 |C|Pay the Price|yes|
 |D|Randomly-priced Tickets |yes(amal)|
 |E|Closest Pair (Uniform)|yes|
