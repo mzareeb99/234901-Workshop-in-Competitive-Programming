@@ -7,7 +7,7 @@
 |E|Closest Pair (Uniform)|yes|
 |F|Skyline|yes|
 |G|The King of the North|yes|
-|H|Avoiding the Apocalypse |yes(amal)|
+|H|Avoiding the Apocalypse |[yes(amal)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/avoidingtheapocalypse.cpp)|
 |I|Finding Paths in Grid|yes (amal)|
 |J|The Candyman Can|yes (yahav)|
 |K|Peg Game for Two||
