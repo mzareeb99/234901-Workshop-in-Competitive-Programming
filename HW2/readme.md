@@ -4,7 +4,7 @@
 |B|Calculator |[Y(yahav)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/calculator.cpp)|
 |C|Pay the Price|yes|
 |D|Randomly-priced Tickets |yes(amal)|
-|E|Closest Pair (Uniform)|yes|
+|E|Closest Pair [(Uniform)|yes](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/closestpair1.cpp)|
 |F|Skyline|yes|
 |G|The King of the North|yes|
 |H|Avoiding the Apocalypse |[yes(amal)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/avoidingtheapocalypse.cpp)|
