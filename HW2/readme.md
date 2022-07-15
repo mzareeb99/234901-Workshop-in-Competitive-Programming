@@ -10,6 +10,6 @@
 |H|Avoiding the Apocalypse |[yes(amal)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/avoidingtheapocalypse.cpp)|
 |I|Finding Paths in Grid|yes (amal)|
 |J|The Candyman Can|yes (yahav)|
-|K|Peg Game for Two|yes|
+|K|Peg Game for Two|(yes)[https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/code/peggamefortwo.cpp]|
 |L|Happy Happy Prime Prime|[Yes(Yahav)](https://github.com/mzareeb99/Workshop-in-Competitive-Programming/blob/main/HW2/text/happyprime.txt)|
 
